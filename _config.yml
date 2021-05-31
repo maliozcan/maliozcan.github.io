@@ -1,4 +1,4 @@
-title: Başka Bir Blog
+title: Bir Blog
 author: Ali Özcan
 # email: your-email@domain.com
 # description: > # this means to ignore newlines until "markdown:"
@@ -15,7 +15,7 @@ minima:
   # generate social links in footer
   social_links:
     # twitter: jekyllrb
-    github:  jekyll
+    github: maliozcan 
     # rss: rss
     # dribbble: jekyll
     # facebook: jekyll

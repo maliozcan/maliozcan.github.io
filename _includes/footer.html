@@ -1,4 +1,4 @@
-{% if page.layout != 'home' %}
+{% if page.layout == 'post' %}
     {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
     {% if posts.size == 0 %}
         {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
